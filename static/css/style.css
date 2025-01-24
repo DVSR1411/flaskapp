@@ -1,0 +1,44 @@
+/* Custom styles */
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+/* Dashboard styles */
+.expense-card {
+    transition: transform 0.2s;
+}
+
+.expense-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Report styles */
+.report-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.pie-chart {
+    max-width: 100%;
+    height: auto;
+}
